@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +27,7 @@ a {
 button{
   overflow-x: hidden;
   height: 25px;
-  width: 310px;
+  width: 270px;
   display: flex;
   flex-direction: column;
   border: none;
@@ -42,7 +43,6 @@ button:hover{
 
 table{
   width: 100%;
-  
 }
 
 table tr{
@@ -112,7 +112,10 @@ table tr td{
 
 .navbar-menu{
   border-bottom: solid 2px gray;
-
 }
 
+
+.carousel img {
+  width: 100%;
+}
 

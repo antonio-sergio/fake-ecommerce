@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default function NabBar() {
   return (
     <>
@@ -10,29 +11,29 @@ export default function NabBar() {
             <a className="text-uppercase ms-2" href="/">frete grátis a partir de r$149,00*</a>
           </div>
 
-          <div className="box-phones pt-2 me-4">
+          <div className="box-phones pt-2">
             <button>
               <table className="">
                 <tbody>
                   <tr >
                     <td className="ms-0 border-end"><a className=" ps-4" href="/">Telefones</a>   </td>
-                    <td className=" ms-3 me-5"><i className="bi bi-whatsapp ms-1"></i><a className="ms-2" href="/"> (16) 99319-1201</a> </td>
+                    <td className=" "><i className="bi bi-whatsapp ms-1"></i><a className="ms-2" href="/"> (16) 99319-1201</a> </td>
                   </tr>
                   <tr className="">
                     <td className="ms-4">são paulo</td>
-                    <td className="">(11) 3136-0691</td>
+                    <td className="ps-3">(11) 3136-0691</td>
                   </tr>
                   <tr className="">
                     <td className="ms-4">rio de janeiro</td>
-                    <td className="">(21) 3005-2192</td>
+                    <td className="ps-3">(21) 3005-2192</td>
                   </tr>
                   <tr className="">
                     <td className="ms-4">belo horizonte</td>
-                    <td className="">(31)2626-1369</td>
+                    <td className="ps-3">(31)2626-1369</td>
                   </tr>
                   <tr className="">
                     <td className="ms-4">franca</td>
-                    <td className=""> (16) 3600-9894</td>
+                    <td className="ps-3"> (16) 3600-9894</td>
                   </tr>
                 </tbody>
 
@@ -41,98 +42,98 @@ export default function NabBar() {
           </div>
         </div>
 
-        <div className="navbar-menu container-fluid">
+        <div className="navbar-menu container">
           <div className="d-flex align-items-center justify-content-between mb-1">
             <div className="">
               <img src="https://img.irroba.com.br/filters:format(webp):fill(fff):quality(95)/lojalaro/catalog/logos/logotipo-laroche-v2.jpg" alt="logo laroche" />
             </div>
             <div className="d-flex">
               <div>
-                <div class="dropdown">
+                <div className="dropdown">
                   <div>
-                    <a class="btn line bg-white text-black text-uppercase" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="btn line bg-white text-black text-uppercase" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                       calçados masculinos
                     </a>
                   </div>
 
-                  <ul class="dropdown-menu  " aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item " href="/">lançamentos</a></li>
-                    <li><a class="dropdown-item " href="/">mule masculino</a></li>
-                    <li><a class="dropdown-item " href="/">slip on masculino</a></li>
-                    <li><a class="dropdown-item " href="/">chinelo masculino</a></li>
-                    <li><a class="dropdown-item " href="/">coturno masculino</a></li>
-                    <li><a class="dropdown-item " href="/">sapatenis masculino</a></li>
-                    <li><a class="dropdown-item " href="/">mocassim masculino</a></li>
-                    <li><a class="dropdown-item " href="/">tênis casual masculino</a></li>
-                    <li><a class="dropdown-item " href="/">sapato social masculino</a></li>
-                    <li><a class="dropdown-item " href="/">sapatenis botinha (cano alto)</a></li>
-                    <li><a class="dropdown-item " href="/">sapato confortável masculino</a></li>
+                  <ul className="dropdown-menu  " aria-labelledby="dropdownMenuLink">
+                    <li><a className="dropdown-item " href="/">lançamentos</a></li>
+                    <li><a className="dropdown-item " href="/">mule masculino</a></li>
+                    <li><a className="dropdown-item " href="/">slip on masculino</a></li>
+                    <li><a className="dropdown-item " href="/">chinelo masculino</a></li>
+                    <li><a className="dropdown-item " href="/">coturno masculino</a></li>
+                    <li><a className="dropdown-item " href="/">sapatenis masculino</a></li>
+                    <li><a className="dropdown-item " href="/">mocassim masculino</a></li>
+                    <li><a className="dropdown-item " href="/">tênis casual masculino</a></li>
+                    <li><a className="dropdown-item " href="/">sapato social masculino</a></li>
+                    <li><a className="dropdown-item " href="/">sapatenis botinha (cano alto)</a></li>
+                    <li><a className="dropdown-item " href="/">sapato confortável masculino</a></li>
 
                   </ul>
                 </div>
               </div>
               <div>
-                <div class="dropdown">
+                <div className="dropdown">
                   <div className="">
-                    <a class="btn bg-white text-black line text-uppercase" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="btn bg-white text-black line text-uppercase" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                       calçados infantis
                     </a>
                   </div>
-                  <ul class="dropdown-menu text-black" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item " href="/">linha baby - do 17 ao 26</a></li>
-                    <li><a class="dropdown-item " href="/">slip on infantil</a></li>
-                    <li><a class="dropdown-item " href="/">tênis infantil</a></li>
-                    <li><a class="dropdown-item " href="/">babuche infantil</a></li>
-                    <li><a class="dropdown-item " href="/">sandália infantil</a></li>
-                    <li><a class="dropdown-item " href="/">mocassim infantil</a></li>
-                    <li><a class="dropdown-item " href="/">sapatenis infantil</a></li>
-                    <li><a class="dropdown-item " href="/">botinhas infantil masculina</a></li>
-                    <li><a class="dropdown-item " href="/">tal pai, tal filho</a></li>
+                  <ul className="dropdown-menu text-black" aria-labelledby="dropdownMenuLink">
+                    <li><a className="dropdown-item " href="/">linha baby - do 17 ao 26</a></li>
+                    <li><a className="dropdown-item " href="/">slip on infantil</a></li>
+                    <li><a className="dropdown-item " href="/">tênis infantil</a></li>
+                    <li><a className="dropdown-item " href="/">babuche infantil</a></li>
+                    <li><a className="dropdown-item " href="/">sandália infantil</a></li>
+                    <li><a className="dropdown-item " href="/">mocassim infantil</a></li>
+                    <li><a className="dropdown-item " href="/">sapatenis infantil</a></li>
+                    <li><a className="dropdown-item " href="/">botinhas infantil masculina</a></li>
+                    <li><a className="dropdown-item " href="/">tal pai, tal filho</a></li>
                     
                   </ul>
                 </div>
               </div>
               <div>
-                <div class="dropdown ">
+                <div className="dropdown ">
                   <div>
-                    <a class="btn bg-white text-black line text-uppercase" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="btn bg-white text-black line text-uppercase" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                       acessórios
                     </a>
                   </div>
-                  <ul class="dropdown-menu text-black" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item " href="/">short</a></li>
-                    <li><a class="dropdown-item " href="/">meias</a></li>
-                    <li><a class="dropdown-item " href="/">cintos</a></li>
-                    <li><a class="dropdown-item " href="/">carteiras</a></li>
-                    <li><a class="dropdown-item " href="/">moletom</a></li>
-                    <li><a class="dropdown-item " href="/">camisetas</a></li>
-                    <li><a class="dropdown-item " href="/">capa para notebook</a></li>
+                  <ul className="dropdown-menu text-black" aria-labelledby="dropdownMenuLink">
+                    <li><a className="dropdown-item " href="/">short</a></li>
+                    <li><a className="dropdown-item " href="/">meias</a></li>
+                    <li><a className="dropdown-item " href="/">cintos</a></li>
+                    <li><a className="dropdown-item " href="/">carteiras</a></li>
+                    <li><a className="dropdown-item " href="/">moletom</a></li>
+                    <li><a className="dropdown-item " href="/">camisetas</a></li>
+                    <li><a className="dropdown-item " href="/">capa para notebook</a></li>
                     
                   </ul>
                 </div>
               </div>
               <div>
-                <div class="dropdown ">
+                <div className="dropdown ">
                   <div>
-                    <a class="btn bg-white text-black line text-uppercase" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="btn bg-white text-black line text-uppercase" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                       combos
                     </a>
                   </div>
                 </div>
               </div>
               <div>
-                <div class="dropdown ">
+                <div className="dropdown ">
                   <div>
-                    <a class="btn bg-white text-black line text-uppercase" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="btn bg-white text-black line text-uppercase" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                       envio imediato
                     </a>
                   </div>
                 </div>
               </div>
               <div>
-                <div class="dropdown ">
+                <div className="dropdown ">
                   <div>
-                    <a class="btn bg-white text-black line text-uppercase" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="btn bg-white text-black line text-uppercase" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                       outlet
                     </a>
                   </div>
@@ -141,9 +142,9 @@ export default function NabBar() {
               
             </div>
             <div className="d-flex fs-4 ms-3 ps-5">
-              <div><i class="bi bi-search"></i></div>
-              <div><i class="bi bi-person ms-2"></i></div>
-              <div><i class="bi bi-briefcase ms-2"></i></div>
+              <div><i className="bi bi-search"></i></div>
+              <div><i className="bi bi-person ms-2"></i></div>
+              <div><i className="bi bi-briefcase ms-2"></i></div>
             </div>
           </div>
           
