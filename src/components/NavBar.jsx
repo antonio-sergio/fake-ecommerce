@@ -3,14 +3,14 @@ import React from 'react';
 export default function NabBar() {
   return (
     <>
-      <nav className="d-flex flex-column  ">
-        <div className="d-flex bg-black justify-content-between ">
-          <div className="rule-building bg-black text-light ps-5 d-flex align-items-center ">
+      <nav className="d-flex flex-column">
+        <div className="d-flex bg-black justify-content-between">
+          <div className="rule-building bg-black text-light ps-5 d-flex align-items-center ms-4">
             <span className="text-uppercase border-end d-flex"><i className="bi bi-question-circle-fill fs-5 mt-1 "></i> <a className="ms-1 m-2" href="/">ajuda</a> </span>
             <a className="text-uppercase ms-2" href="/">frete grátis a partir de r$149,00*</a>
           </div>
 
-          <div className="box-phones pt-2">
+          <div className="box-phones pt-2 me-4">
             <button>
               <table className="">
                 <tbody>
@@ -41,14 +41,14 @@ export default function NabBar() {
           </div>
         </div>
 
-        <div>
-          <div className="d-flex align-items-center">
-            <div>
+        <div className="navbar-menu container-fluid">
+          <div className="d-flex align-items-center justify-content-between mb-1">
+            <div className="">
               <img src="https://img.irroba.com.br/filters:format(webp):fill(fff):quality(95)/lojalaro/catalog/logos/logotipo-laroche-v2.jpg" alt="logo laroche" />
             </div>
             <div className="d-flex">
               <div>
-                <div class="dropdown ">
+                <div class="dropdown">
                   <div>
                     <a class="btn line bg-white text-black text-uppercase" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                       calçados masculinos
@@ -72,8 +72,8 @@ export default function NabBar() {
                 </div>
               </div>
               <div>
-                <div class="dropdown ">
-                  <div>
+                <div class="dropdown">
+                  <div className="">
                     <a class="btn bg-white text-black line text-uppercase" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                       calçados infantis
                     </a>
@@ -140,11 +140,13 @@ export default function NabBar() {
               </div>
               
             </div>
-            <div></div>
+            <div className="d-flex fs-4 ms-3 ps-5">
+              <div><i class="bi bi-search"></i></div>
+              <div><i class="bi bi-person ms-2"></i></div>
+              <div><i class="bi bi-briefcase ms-2"></i></div>
+            </div>
           </div>
-          <div>
-            {/* ultimo */}
-          </div>
+          
         </div>
       </nav>
     </>

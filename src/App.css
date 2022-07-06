@@ -75,10 +75,12 @@ table tr td{
 
 /* dropdown */
 
+
 .dropdown .btn{
   border: none;
   border-radius: 0;
   font-size: 14px;
+  padding-right: 0;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -99,12 +101,18 @@ table tr td{
   background-color: white;
   color: black;
   text-transform: uppercase;
+  
 }
 
 .dropdown-menu a:hover{
   background-color: white;
   color: #ff6600;
+  
 }
 
+.navbar-menu{
+  border-bottom: solid 2px gray;
+
+}
 
 
