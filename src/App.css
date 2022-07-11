@@ -1,11 +1,10 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-a:visited{
+a:visited {
   color: white;
 }
 
@@ -18,13 +17,13 @@ a {
 
 /* navbar */
 
-.box-phones{
+.box-phones {
   height: 25px;
   background-color: black;
 }
 
 
-button{
+button {
   overflow-x: hidden;
   height: 25px;
   width: 270px;
@@ -36,21 +35,22 @@ button{
   justify-content: flex-start;
 }
 
-button:hover{
+button:hover {
   overflow-x: visible;
-  height: 130px; 
+  height: 130px;
 }
 
-table{
+table {
   width: 100%;
 }
 
-table tr{
+
+table tr {
   display: flex;
-  justify-content: flex-start;  
+  justify-content: flex-start;
 }
 
-table tr td{
+table tr td {
   display: flex;
   justify-content: flex-start;
   width: 50%;
@@ -60,7 +60,8 @@ table tr td{
   font-size: 13px;
 }
 
-.navbar a:hover, table tr td a:hover{
+.navbar a:hover,
+table tr td a:hover {
   color: #ff6600;
 }
 
@@ -68,7 +69,9 @@ table tr td{
 .navbar {
   max-height: 35px;
 }
-.rule-building span, a {
+
+.rule-building span,
+a {
   font-size: 13px;
 }
 
@@ -76,7 +79,7 @@ table tr td{
 /* dropdown */
 
 
-.dropdown .btn{
+.dropdown .btn {
   border: none;
   border-radius: 0;
   font-size: 14px;
@@ -87,35 +90,52 @@ table tr td{
   display: block;
 }
 
-.dropdown:hover .line  {
+.dropdown:hover .line {
   border-bottom: solid 2px gray;
 }
 
-.dropdown-menu{
+.dropdown-menu {
   border-radius: 0;
   font-size: 24px;
 }
 
-.dropdown-menu a{
+.dropdown-menu a {
   font-size: 14px;
   background-color: white;
   color: black;
   text-transform: uppercase;
-  
+
 }
 
-.dropdown-menu a:hover{
+.dropdown-menu a:hover {
   background-color: white;
   color: #ff6600;
-  
+
 }
 
-.navbar-menu{
+.navbar-menu {
   border-bottom: solid 2px gray;
 }
 
 
+/* carrossel da home */
 .carousel img {
   width: 100%;
 }
 
+
+/* carrossel de produtos */
+.container-list-products:hover button.slick-arrow {
+  display: block;
+  background-color: gray;
+  height: 22px
+}
+
+.slick-dots li button:before {
+  font-size: 15px !important;
+  line-height: 15px;
+}
+
+.card {
+  border: none;
+}

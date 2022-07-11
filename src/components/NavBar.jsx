@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 export default function NabBar() {
   return (
@@ -45,19 +45,19 @@ export default function NabBar() {
         <div className="navbar-menu container">
           <div className="d-flex align-items-center justify-content-between mb-1">
             <div className="">
-              <img src="https://img.irroba.com.br/filters:format(webp):fill(fff):quality(95)/lojalaro/catalog/logos/logotipo-laroche-v2.jpg" alt="logo laroche" />
+              <a href="/"><img src="https://img.irroba.com.br/filters:format(webp):fill(fff):quality(95)/lojalaro/catalog/logos/logotipo-laroche-v2.jpg" alt="logo laroche" /></a>
             </div>
-            <div className="d-flex">
+            <div className="d-flex container">
               <div>
                 <div className="dropdown">
                   <div>
-                    <a className="btn line bg-white text-black text-uppercase" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <Link className="btn line bg-white text-black text-uppercase" to="/products" role="button" id="dropdownMenuLink" aria-expanded="false">
                       calçados masculinos
-                    </a>
+                    </Link>
                   </div>
 
                   <ul className="dropdown-menu  " aria-labelledby="dropdownMenuLink">
-                    <li><a className="dropdown-item " href="/">lançamentos</a></li>
+                    <li><Link className="dropdown-item " to="/products">lançamentos</Link></li>
                     <li><a className="dropdown-item " href="/">mule masculino</a></li>
                     <li><a className="dropdown-item " href="/">slip on masculino</a></li>
                     <li><a className="dropdown-item " href="/">chinelo masculino</a></li>
