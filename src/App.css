@@ -4,26 +4,29 @@
   box-sizing: border-box;
 }
 
-a:visited {
-  color: white;
-}
 
 a {
   text-decoration: none;
 }
 
+a:visited {
+  color: black;
+}
 
 
 
 /* navbar */
 
+.navbar-principal a:visited {
+  color: white;
+}
 .box-phones {
   height: 25px;
   background-color: black;
 }
 
 
-button {
+.navbar-principal button {
   overflow-x: hidden;
   height: 25px;
   width: 270px;
@@ -35,22 +38,22 @@ button {
   justify-content: flex-start;
 }
 
-button:hover {
+.navbar-principal button:hover {
   overflow-x: visible;
   height: 130px;
 }
 
-table {
+.navbar-principal table {
   width: 100%;
 }
 
 
-table tr {
+.navbar-principal table tr {
   display: flex;
   justify-content: flex-start;
 }
 
-table tr td {
+.navbar-principal table tr td {
   display: flex;
   justify-content: flex-start;
   width: 50%;
@@ -60,8 +63,8 @@ table tr td {
   font-size: 13px;
 }
 
-.navbar a:hover,
-table tr td a:hover {
+.navbar-principal .navbar a:hover,
+.navbar-principal  table tr td a:hover {
   color: #ff6600;
 }
 
@@ -99,6 +102,13 @@ a {
   font-size: 24px;
 }
 
+.dropdown a{
+  color: black;
+}
+
+.dropdown a:visited{
+  color: black;
+}
 .dropdown-menu a {
   font-size: 14px;
   background-color: white;
@@ -106,6 +116,7 @@ a {
   text-transform: uppercase;
 
 }
+
 
 .dropdown-menu a:hover {
   background-color: white;
@@ -138,4 +149,8 @@ a {
 
 .card {
   border: none;
+}
+
+.price{
+  color: #ff6500;
 }

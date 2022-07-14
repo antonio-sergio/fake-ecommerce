@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import api from '../services/api';
-
+import { Link } from 'react-router-dom';
 
 
 export default class MultipleItems extends Component {
@@ -38,7 +38,6 @@ export default class MultipleItems extends Component {
         });
 
         orderedProducts.reverse();
-        console.log(orderedProducts);
 
         const stars = (count) => {
             const [int = 0, decimal = 0] = count.toString()
@@ -46,19 +45,18 @@ export default class MultipleItems extends Component {
                 .map((num) => parseInt(num));
             const elements = [];
             for (let i = 0; i < int; i++) {
-                elements.push(React.createElement("i", { className: "bi bi-star-fill text-info" }));
+                elements.push(React.createElement("i", { className: "bi bi-star-fill text-info", key: i }));
             }
             if(decimal > 0){
-                elements.push(React.createElement("i", { className: "bi bi-star-half text-info" }));
+                elements.push(React.createElement("i", { className: "bi bi-star-half text-info", key: 4343 }));
             }
             if(int < 5){
                 let dif = 5 - int;
                 if (decimal > 0) dif -= 1;
                  
-                // <i class="bi bi-star"></i>
                 for(let i = 0; i < dif; i++){
 
-                    elements.push(React.createElement("i", { className: "bi bi-star text-info" }));
+                    elements.push(React.createElement("i", { className: "bi bi-star text-info", key: i + "a" }));
                 }
             }
             const element = React.createElement("div", { className: "text-center" }, elements);
@@ -74,9 +72,9 @@ export default class MultipleItems extends Component {
 
                         return (
                             <div className="card p-4 " key={product.id}>
-                                <img className="card-img-top" src={product.image} alt={product.title} height="450px" />
+                              <Link to={`/products/${product.id}`}><img className="card-img-top" src={product.image} alt={product.title} height="450px" /></Link>  
                                 <h5 className="card-title text-center mt-5">{product.title}</h5>
-                                <p className="card-text text-center lead fw-bold">${product.price}</p>
+                                <p className="card-text text-center lead fw-bold price">${product.price}</p>
                                 {stars(product.rating.rate)}
                             </div>
                         )
