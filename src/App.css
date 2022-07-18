@@ -154,3 +154,11 @@ a {
 .price{
   color: #ff6500;
 }
+
+
+/* about us */
+
+.about-p{
+  font-size: 14px;
+  text-align: justify;
+}

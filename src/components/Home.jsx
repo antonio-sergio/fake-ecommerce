@@ -3,7 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import BestSellers from '../components/BestSellers';
-
+import Men from '../pages/Men';
+import Women from '../pages/Women';
+import About from '../pages/AboutUs';
 
 export default class SimpleSlider extends Component {
     render() {
@@ -26,9 +28,14 @@ export default class SimpleSlider extends Component {
                     <div>
                         <a href="/"><img src="https://img.irroba.com.br/fit-in/1440x1440/filters:format(webp):quality(95)/lojalaro/catalog/assessoria/banners/2022/06-jun/29-06/banner-principal-envio.png" alt="entregador em uma moto" /></a>
                     </div>
-
+                    <div>
+                        <a href="/"><img src="https://img.irroba.com.br/fit-in/1440x1440/filters:format(webp):quality(95)/lojalaro/catalog/assessoria/banners/2022/07-jul/15-07/banner-principal-dia-dos-pais-04.png" alt="sapatos do mesmo modelo para pai e filho"/></a>
+                    </div>
                 </Slider>
                 <BestSellers />
+                <Men />
+                <Women />
+                <About />
             </div>
         );
     }
