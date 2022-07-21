@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Nunito:wght@200;400;700&family=Roboto:wght@100;400;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -161,4 +164,73 @@ a {
 .about-p{
   font-size: 14px;
   text-align: justify;
+}
+
+
+/* Footer */
+.news{
+  background-color: #ff6600;
+}
+
+.form-check span{
+  font-size: 13px;
+}
+
+.footer-links a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  padding: 2px;
+  font-weight: 400;
+}
+
+.contact a{
+  font-weight: 300;
+}
+
+.contact i{
+  color: rgb(59, 59, 59);
+}
+
+.contact a b{
+  font-weight: bold;
+}
+
+/* social media footer */
+.social-media a{
+  font-size: 14px;
+  padding-left: 10px;
+  color: white;
+}
+
+.social-media a i{
+  padding: 5px;
+  border-radius: 10%;
+}
+
+/* facebook */
+.social-media a:nth-child(1) {
+  padding-left: 0;
+}
+.social-media a:nth-child(1) i{
+  background-color: #47639e;
+}
+
+/* twitter */
+.social-media a:nth-child(2) i{
+  background-color: #55acee;
+}
+
+/* instagram */
+.social-media a:nth-child(3) i{
+  background-color: #674e46;
+}
+
+/* youtube */
+.social-media a:nth-child(4) i{
+  background-color: #e52c28;
+}
+
+/* pinterest */
+.social-media a:nth-child(5) i{
+  background-color: #cb2028;
 }

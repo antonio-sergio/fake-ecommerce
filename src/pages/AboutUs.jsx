@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 
 export default function AboutUs() {
     return (
         <div>
-            <h1 className='display-6 text-center pb-5'>Loja de Sapatos Online da Calçados Laroche</h1>
+            <h1 className='display-6 text-center fs-1 text-uppercase pb-5'>Loja de Sapatos Online da Calçados Laroche</h1>
             <div className="d-flex container " >
                 <div className="col">
                     <img src="https://img.irroba.com.br/lojalaro/catalog/assessoria/banners/2022/01-jan/02-seg/laroche.jpg" className="" alt="..." />

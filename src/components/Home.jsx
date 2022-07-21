@@ -6,6 +6,7 @@ import BestSellers from '../components/BestSellers';
 import Men from '../pages/Men';
 import Women from '../pages/Women';
 import About from '../pages/AboutUs';
+import Footer from '../pages/Footer';
 
 export default class SimpleSlider extends Component {
     render() {
@@ -36,6 +37,7 @@ export default class SimpleSlider extends Component {
                 <Men />
                 <Women />
                 <About />
+                <Footer />
             </div>
         );
     }
