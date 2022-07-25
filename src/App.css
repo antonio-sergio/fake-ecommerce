@@ -10,6 +10,7 @@
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 a:visited {
@@ -183,6 +184,11 @@ a {
   font-weight: 400;
 }
 
+.footer-links a:hover{
+  color: #55acee;
+  text-decoration: underline;
+}
+
 .contact a{
   font-weight: 300;
 }
@@ -201,6 +207,7 @@ a {
   padding-left: 10px;
   color: white;
 }
+
 
 .social-media a i{
   padding: 5px;
@@ -233,4 +240,37 @@ a {
 /* pinterest */
 .social-media a:nth-child(5) i{
   background-color: #cb2028;
+}
+
+/* sobre formas de pagamento, segurança do site e entregas */
+.footer-img img{
+  width: 100%;;
+}
+
+.google-safe-browsing img{
+  max-width: 50%;
+}
+
+.security-site-ads{
+  font-weight: 300;
+  color: rgb(119, 118, 118);
+  font-size: 12px;
+}
+
+
+/* ultimos links */
+.footer-nav-links a, .copyright{
+  line-height: 8px;
+  font-size: 10px;
+  font-weight: 400;
+  color: rgb(39, 37, 37);
+
+}
+
+/* copyright */
+
+.copyright{
+  font-size: 12px;
+  line-height: 20px;
+
 }
